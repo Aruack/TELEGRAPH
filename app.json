@@ -1,0 +1,40 @@
+{
+    "name": "𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙿𝙷 𝙱𝙾𝚃",
+    "description": "𝙰 𝚋𝚘𝚝 𝚝𝚑𝚊𝚝 𝚌𝚊𝚗 𝚞𝚙𝚕𝚘𝚊𝚍 𝚖𝚎𝚍𝚒𝚊 𝚝𝚘 𝚝𝚎𝚕𝚎𝚐𝚛𝚊.𝚙𝚑 𝙼𝙰𝙳𝙴 𝙱𝚈:-@Aruack",
+    "logo": "https://telegra.ph/file/df88cd27fc2221d3393be.jpg",
+    "keywords": [
+        "Telegra.ph",
+        "Aruack",
+        "Telegram Bot",
+        "telegra"
+    ],
+    "website": "",
+    "repository": "https://github.com/aruack/TELEGRAPH/",
+    "success_url": "https://telegram.dog/Aruackofficial",
+    "env": {
+        "TG_BOT_TOKEN": {
+            "description": "You Telegram Bot Token from @BotFather",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Your API Hash from my.telegram.org",
+            "value": ""
+        },
+        "APP_ID": {
+            "description": "Your API ID from my.telegram.org",
+            "value": ""
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
