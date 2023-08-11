@@ -4,7 +4,7 @@ bs4
 telegraph
 emoji
 lxml
-gitpython==3.1.11
+gitpython==3.1.32
 heroku3==4.2.3
 beautifulsoup4
 requests
